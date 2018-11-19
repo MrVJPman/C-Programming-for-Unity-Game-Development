@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/Users/bobko/Downloads/_16782e18dab269ed2957330395172a71_4-1-Exercise-20-Solution/Exercise20/Assets/scenes/scene0.unity
+  isLoaded: 1
+  isActive: 1

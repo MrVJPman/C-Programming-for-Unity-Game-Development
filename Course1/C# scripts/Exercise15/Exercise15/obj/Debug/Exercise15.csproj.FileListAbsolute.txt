@@ -1,0 +1,7 @@
+C:\Users\bobko\source\repos\Exercise15\Exercise15\bin\Debug\Exercise15.exe.config
+C:\Users\bobko\source\repos\Exercise15\Exercise15\bin\Debug\Exercise15.exe
+C:\Users\bobko\source\repos\Exercise15\Exercise15\bin\Debug\Exercise15.pdb
+C:\Users\bobko\source\repos\Exercise15\Exercise15\obj\Debug\Exercise15.csprojAssemblyReference.cache
+C:\Users\bobko\source\repos\Exercise15\Exercise15\obj\Debug\Exercise15.csproj.CoreCompileInputs.cache
+C:\Users\bobko\source\repos\Exercise15\Exercise15\obj\Debug\Exercise15.exe
+C:\Users\bobko\source\repos\Exercise15\Exercise15\obj\Debug\Exercise15.pdb

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0da28602e20104348b11e39671e21e57
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - prefabRock: {instanceID: 0}
+  - rockSprite1: {instanceID: 0}
+  - rockSprite2: {instanceID: 0}
+  - rockSprite3: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
