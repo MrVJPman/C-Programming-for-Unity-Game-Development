@@ -114,3 +114,86 @@ public class ship : MonoBehaviour {
     }
 
 }
+
+
+/*
+ * using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Ship : MonoBehaviour {
+
+Rigidbody2D rb2D;
+Vector2 thrustDirection;
+[SerializeField]
+float ThrustForce = 1;
+
+[SerializeField]
+float rotateDegreesPerSecond = 5;
+
+[SerializeField]
+float directionz;
+
+float dirx;
+float diry;
+
+float coliderRadius;
+
+// Use this for initialization
+void Start () {
+rb2D = gameObject.GetComponent<Rigidbody2D>();
+thrustDirection = new Vector2(1, 0);
+coliderRadius = GetComponent<CircleCollider2D>().radius;
+
+}
+
+// Update is called once per frame
+void Update () {
+if (Input.GetAxis("Rotate") != 0)
+{
+float rotationInput = Input.GetAxis("Rotate"); 
+// calculate rotation amount and apply rotation
+float rotationAmount = rotateDegreesPerSecond * Time.deltaTime;
+if (rotationInput < 0)
+{
+rotationAmount *= -1;
+}
+transform.Rotate(Vector3.forward, rotationAmount);
+directionz = transform.eulerAngles.z;
+dirx = Mathf.Cos(Mathf.Deg2Rad * directionz);
+diry = Mathf.Sin(Mathf.Deg2Rad * directionz);
+thrustDirection = new Vector2(dirx, diry);
+}
+
+}
+
+private void FixedUpdate()
+{
+if (Input.GetAxis("Thrust") > 0)
+{
+rb2D.AddForce(thrustDirection * ThrustForce, ForceMode2D.Force);
+}
+}
+
+private void OnBecameInvisible()
+{
+if(gameObject.transform.position.x > ScreenUtils.ScreenRight)
+{
+gameObject.transform.position = new Vector2(ScreenUtils.ScreenLeft, gameObject.transform.position.y);
+}
+if (gameObject.transform.position.x < ScreenUtils.ScreenLeft)
+{
+gameObject.transform.position = new Vector2(ScreenUtils.ScreenRight, gameObject.transform.position.y);
+}
+if (gameObject.transform.position.y > ScreenUtils.ScreenTop)
+{
+gameObject.transform.position = new Vector2(gameObject.transform.position.x, ScreenUtils.ScreenBottom);
+}
+if (gameObject.transform.position.y < ScreenUtils.ScreenBottom)
+{
+gameObject.transform.position = new Vector2(gameObject.transform.position.x, ScreenUtils.ScreenTop);
+}
+
+}
+}
+*/
